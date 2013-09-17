@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "devise/oauth2_providable/version"
 
 Gem::Specification.new do |s|
-  s.name        = "devise_oauth2_providable"
+  s.name        = "mustwin_devise_oauth2_providable"
   s.version     = Devise::Oauth2Providable::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Ryan Sonnek"]
