@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency(%q<rails>, [">= 3.2.0"])
   s.add_runtime_dependency(%q<devise>, [">= 3.0.0"])
-  s.add_runtime_dependency(%q<rack-oauth2>, ["~> 0.11.0"])
+  s.add_runtime_dependency(%q<rack-oauth2>, [">= 1.0.0"])
   s.add_runtime_dependency(%q<protected_attributes>)
   s.add_development_dependency(%q<rspec-rails>, ['>= 2.6.1'])
   s.add_development_dependency(%q<sqlite3>, ['1.3.5'])
